@@ -24,7 +24,7 @@ function App() {
   }, []);
 
   // Testing to see if collection of json data works
-  // const fishData = data["Species Illustration Photo"]
+  // const fishData = data[0]["Species Illustration Photo"] //2d array of fish 
   // const fishPhoto = []
 
   // for (let i in fishData)
