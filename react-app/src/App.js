@@ -4,22 +4,19 @@ import "./App.css"
 function App() {
 
   // Assigning data
-  const [data, setData] = useState("Loading")
-
+  const [data, setData] = useState("Loeadinhggggggggggggggg") //"useState" calls the "useEffect" hook 
+  // Possible create a hook object based off the users search 
+  // Processes data from link
   useEffect(() => {
     const url = "https://www.fishwatch.gov/api/species"
 
     const fetchData = async () => {
-      try {
-        const response = await fetch(url);
-        const json = await response.json();
-        console.log(json);
-        setData(json);
-      } catch (error) {
-        console.log("error", error);
-      }
-    };
-
+      
+      const response = await fetch(url);
+      const json = await response.json();
+      console.log(json);
+      setData(json);
+    }
     fetchData();
   }, []);
 
