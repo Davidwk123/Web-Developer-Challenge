@@ -4,7 +4,7 @@ import "./App.css"
 function App() {
 
   // Assigning data
-  const [data, setData] = useState("Loeadinhggggggggggggggg") //"useState" calls the "useEffect" hook 
+  const [data, setData] = useState([]) //"useState" calls the "useEffect" hook 
   // Possible create a hook object based off the users search 
   // Processes data from link
   useEffect(() => {
