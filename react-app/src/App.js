@@ -4,7 +4,7 @@ import "./App.css"
 function App() {
 
   // Assigning data
-  const [data, setData] = useState([]) //"useState" calls the "useEffect" hook 
+  const [data, setData] = useState() //"useState" calls the "useEffect" hook 
   // Possible create a hook object based off the users search 
   // Processes data from link
   useEffect(() => {
@@ -26,13 +26,27 @@ function App() {
 
   // for (let i in fishData)
   //   fishPhoto.push(fishData[i]);
-  // console.log(fishPhoto);
+  
+  // Testing to see how to index array of json data from API
+  if(data)  // FIXED: Needed to have a check for the data because of useState()
+  // UseState() first render is empty so calling this would give the "undefined" error 
+    console.log(data[100]["Species Name"]);
+   
   /* <img src={fishPhoto[0]} alt={fishPhoto[1]}></img> */
   return (
     <div className='App'>
+      <br></br>
+
       <header>
-      Hello World
+        <h1>Web Developer Challenge</h1>
       </header>
+
+      <br></br>
+      <br></br>
+
+      <section>
+        <p1> test </p1>
+      </section>
     </div>
  
   );
