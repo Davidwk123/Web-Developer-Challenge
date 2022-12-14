@@ -39,6 +39,14 @@ function App() {
 
       <header>
         <h1>Web Developer Challenge</h1>
+
+        <br></br>
+        <br></br>
+        {/* Search Bar*/}
+        <div class="Searchbar">
+          <input type="text" placeholder="Search.." name="search"></input>
+        </div>
+        
       </header>
 
       <br></br>
