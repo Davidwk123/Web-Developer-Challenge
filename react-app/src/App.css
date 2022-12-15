@@ -37,8 +37,25 @@
   }
 }
 
-.Searchbar input{
+.Searchbar input {
   height: 50px;
   width: 400px;
+  margin-top: 75px;
   font-size: 25px;
+ 
+}
+
+.Searchbar button {
+  height: 50px;
+  width: 50px;
+  position: relative;
+}
+
+
+@media screen and (max-width: 600px) {
+  .Searchbar input{
+    height: 40px;
+    width: 300px;
+    font-size: 20px;
+  }
 }

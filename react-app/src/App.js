@@ -1,4 +1,5 @@
 import React, { useEffect, useState }  from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import "./App.css"
 
 function App() {
@@ -40,11 +41,11 @@ function App() {
       <header>
         <h1>Web Developer Challenge</h1>
 
-        <br></br>
-        <br></br>
+        
         {/* Search Bar*/}
         <div class="Searchbar">
           <input type="text" placeholder="Search.." name="search"></input>
+          <button type="submit"></button>
         </div>
         
       </header>
