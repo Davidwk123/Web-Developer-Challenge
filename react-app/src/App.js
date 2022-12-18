@@ -42,9 +42,10 @@ function App() {
       <header>
         <h1>Web Developer Challenge</h1>
 
-        
+        <br></br>
+        <br></br>
         {/* Search Bar*/}
-        <form class="Searchbar">
+        <form class="Searchbar" >
           <input type="text" placeholder="Search.." name="search"></input>
           <button type="submit"><FontAwesomeIcon icon={faMagnifyingGlass} /></button>
         </form>
@@ -55,6 +56,7 @@ function App() {
       <br></br>
 
       <section>
+        {/* API result info after search:  Species Name, Species Photo, Biology, Habitat  */}
         <p1> test </p1>
       </section>
     </div>

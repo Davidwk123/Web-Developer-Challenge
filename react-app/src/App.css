@@ -38,24 +38,39 @@
 }
 
 .Searchbar input {
-  height: 50px;
-  width: 400px;
-  margin-top: 75px;
-  font-size: 25px;
- 
+  padding: 10px;
+  font-size: 17px;
+  margin: auto;
+  max-width: 500px;
+  width: 90%;
+  background: #f1f1f1;
 }
 
 .Searchbar button {
-  height: 50px;
-  width: 50px;
-  position: relative;
+  padding: 10px;
+  width:10%;
+  background: lightblue;
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
 }
 
 
 @media screen and (max-width: 600px) {
   .Searchbar input{
-    height: 40px;
-    width: 300px;
-    font-size: 20px;
+    padding: 10px;
+    font-size: 17px;
+    margin: auto;
+    max-width: 300px;
+    width: 90%;
+    background: #f1f1f1;
+  }
+  .Searchbar button{
+    padding: 10px;
+    width:10%;
+    background: lightblue;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
   }
 }
