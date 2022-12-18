@@ -1,5 +1,6 @@
 import React, { useEffect, useState }  from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons"; // Font-Awesome icon
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./App.css"
 
 function App() {
@@ -43,10 +44,10 @@ function App() {
 
         
         {/* Search Bar*/}
-        <div class="Searchbar">
+        <form class="Searchbar">
           <input type="text" placeholder="Search.." name="search"></input>
-          <button type="submit"></button>
-        </div>
+          <button type="submit"><FontAwesomeIcon icon={faMagnifyingGlass} /></button>
+        </form>
         
       </header>
 
