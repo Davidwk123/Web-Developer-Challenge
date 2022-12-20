@@ -41,6 +41,7 @@ function App() {
 
       <header>
         <h1>Web Developer Challenge</h1>
+        <h5>Using <a href='https://www.fishwatch.gov/'> https://www.fishwatch.gov/</a> API</h5>
 
         <br></br>
         <br></br>
@@ -49,7 +50,8 @@ function App() {
           <input type="text" placeholder="Search.." name="search"></input>
           <button type="submit"><FontAwesomeIcon icon={faMagnifyingGlass} /></button>
         </form>
-        
+        {/* Filter Bar 
+          Possible filter options: Show all, Weight, Calories, Protien, Sodium*/}
       </header>
 
       <br></br>
