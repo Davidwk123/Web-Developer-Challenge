@@ -1,2 +1,2 @@
 # Web-Developer-Challenge
-React app that is a 1-page application that leverages an existing API to search for items from that API and dynamically render them, based on a user-submitted search.
+Working on a React app that is a 1-page application that uses an existing API to search for items from that API and dynamically renders them, based on a user-submitted search.
