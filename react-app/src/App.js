@@ -46,12 +46,19 @@ function App() {
         <br></br>
         <br></br>
         {/* Search Bar*/}
-        <form class="Searchbar" >
+        <form className="Searchbar">
           <input type="text" placeholder="Search.." name="search"></input>
           <button type="submit"><FontAwesomeIcon icon={faMagnifyingGlass} /></button>
         </form>
+
         {/* Filter Bar 
-          Possible filter options: Show all, Weight, Calories, Protien, Sodium*/}
+          Possible filter options: Show all, color*/}
+        <form className="Filterbar">
+          <input type="checkbox" id="show all" name="show all" value="show all"></input>
+          <label for="show all"> Show all fish </label>
+          <input type="checkbox" id="color" name="color" value="color"></input>
+          <label for="color"> Color </label>
+        </form>
       </header>
 
       <br></br>
@@ -59,7 +66,7 @@ function App() {
 
       <section>
         {/* API result info after search:  Species Name, Species Photo, Biology, Habitat  */}
-        <p1> test </p1>
+        <p> test </p>
       </section>
     </div>
  
